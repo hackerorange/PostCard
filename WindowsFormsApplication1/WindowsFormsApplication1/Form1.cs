@@ -23,6 +23,7 @@ namespace WindowsFormsApplication1
             if (result == DialogResult.OK)
             {
                 MessageBox.Show("你点击了确定按钮");
+                MessageBox.Show("HelloWorld");
             }
         }
     }
