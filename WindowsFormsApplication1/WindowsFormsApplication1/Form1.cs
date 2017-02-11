@@ -19,7 +19,11 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("欢迎使用");
+            DialogResult result=MessageBox.Show("欢迎使用");
+            if (result == DialogResult.OK)
+            {
+                MessageBox.Show("你点击了确定按钮");
+            }
         }
     }
 }
